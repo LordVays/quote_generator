@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ translate('random_quote_generator') }}</h1>
+    
+    <div class="quote-container">
+        <div class="quote-box fade-in">
+            <p id="quoteText" class="quote">{{ quote }}</p>
+            <div class="quote-actions">
+                <button id="likeBtn" class="btn-icon" title="{{ translate('like') }}">
+                    <span class="icon">👍</span>
+                    <span id="likeCount">0</span>
+                </button>
+                <button id="dislikeBtn" class="btn-icon" title="{{ translate('dislike') }}">
+                    <span class="icon">👎</span>
+                    <span id="dislikeCount">0</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="controls">
+        <div class="language-selector">
+            <label for="language">{{ translate('select_language') }}:</label>
+            <select id="language">
+                <option value="ru" {% if get_locale() == 'ru' %}selected{% endif %}>Русский</option>
+                <option value="en" {% if get_locale() == 'en' %}selected{% endif %}>English</option>
+            </select>
+        </div>
+        
+        <button id="newQuoteBtn" class="btn-primary">
+            {{ translate('new_quote') }}
+        </button>
+    </div>
+    
+    <div class="share-buttons">
+        <button id="copyBtn" class="btn-secondary">
+            {{ translate('copy_to_clipboard') }}
+        </button>
+        <button id="tweetBtn" class="btn-secondary">
+            {{ translate('share_on_twitter') }}
+        </button>
+    </div>
+{% endblock %}
