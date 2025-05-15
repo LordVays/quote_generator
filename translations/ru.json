@@ -1,0 +1,21 @@
+{
+    "quote_generator": "Генератор цитат",
+    "random_quote_generator": "Генератор случайных цитат",
+    "new_quote": "Новая цитата",
+    "copy_to_clipboard": "Копировать",
+    "share_on_twitter": "Твитнуть",
+    "select_language": "Выберите язык",
+    "history": "История",
+    "login": "Войти",
+    "register": "Регистрация",
+    "logout": "Выйти",
+    "like": "Нравится",
+    "dislike": "Не нравится",
+    "quote_updated": "Новая цитата загружена!",
+    "login_required": "Требуется авторизация",
+    "invalid_request": "Неверный запрос",
+    "vote_recorded": "Ваш голос учтен!",
+    "invalid_credentials": "Неверные имя пользователя или пароль",
+    "username_taken": "Имя пользователя уже занято",
+    "footer_text": "Генератор цитат © 2025 | Создано с любовью к мудрости"
+}

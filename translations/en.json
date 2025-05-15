@@ -1,0 +1,21 @@
+{
+    "quote_generator": "Quote Generator",
+    "random_quote_generator": "Random Quote Generator",
+    "new_quote": "New Quote",
+    "copy_to_clipboard": "Copy to Clipboard",
+    "share_on_twitter": "Tweet Quote",
+    "select_language": "Select Language",
+    "history": "History",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "like": "Like",
+    "dislike": "Dislike",
+    "quote_updated": "New quote loaded!",
+    "login_required": "Login required",
+    "invalid_request": "Invalid request",
+    "vote_recorded": "Your vote has been recorded!",
+    "invalid_credentials": "Invalid username or password",
+    "username_taken": "Username already taken",
+    "footer_text": "Quote Generator © 2023 | Made with love for wisdom"
+}
