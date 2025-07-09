@@ -25,3 +25,9 @@
 2. Установите зависимости:
    ```bash
    pip install -r requirements.txt
+3. Запустите приложение:
+   ```bash
+   python app.py
+4. Сервер будет запущен по порту:
+   ```bash
+   http://localhost:5000
